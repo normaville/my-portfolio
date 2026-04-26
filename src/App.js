@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router basename="/my-portfolio/">
+    <Router>
       <Navbar />
       <main style={{ minHeight: '80vh' }}>
         <Routes>
