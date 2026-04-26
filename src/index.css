@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.accent-clr {
+  color: #77a59c;
+}
+
+/* Home.js */
+.btn-custom {
+  background-color: #77a59c !important;
+  color: white !important;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #4c766b !important;
+  transform: translateY(-3px);
+  color: white;
+}

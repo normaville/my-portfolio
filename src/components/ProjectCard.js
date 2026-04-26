@@ -24,7 +24,7 @@ const ProjectCard = ({ title, category, img, link }) => {
           <Card.Text className="text-muted small flex-grow-1">
             A review site for events.
           </Card.Text>
-          {/* Use 'as={Link}' to use React Router for smooth internal navigation */}
+          {/* 'as={Link}' to use React Router for smooth internal navigation */}
           <Button 
             as={Link} 
             to={link} 

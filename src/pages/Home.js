@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import profileImg from '../assets/profile.jpg';
 
 export default function Home() {
   return (
@@ -12,10 +13,10 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="display-3 fw-bold mb-3">Hi, I'm <span className="text-primary">Norma</span></h1>
+            <h1 className="display-3 fw-bold mb-3">Hi, I'm <span className="accent-clr">Norma</span></h1>
             <p className="lead text-muted mb-4">Orlando-based UI/UX Designer. I create high-impact visuals and low-friction experiences. My mission is to make the complex feel simple and the simple look beautiful.</p>
             <div className="d-flex gap-3 justify-content-center justify-content-md-start">
-              <Link to="/projects" className="btn btn-primary btn-lg px-4 shadow">View My Work</Link>
+              <Link to="/projects" className="btn btn-lg shadow btn-custom">View My Work</Link>
             </div>
           </motion.div>
           <motion.div 
@@ -25,7 +26,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             {/* Replace with your professional headshot */}
-            <img src="https://placeholder.com" alt="Profile" className="img-fluid rounded-circle shadow-lg border border-5 border-white" style={{ maxWidth: '400px' }} />
+            <img src={profileImg} alt="Profile" className="img-fluid rounded-circle shadow-lg border border-5 border-white" style={{ maxWidth: '400px' }} />
           </motion.div>
         </div>
       </div>
