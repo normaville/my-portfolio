@@ -26,7 +26,7 @@ export const projectsData = {
     tools: ["GitHub", "VS Code", "Bootstrap", "Figma"],
     overview: "In The Mix is a social platform that allows users to discover, attend, and rate local events while building a sense of community around shared interests. The platform emphasizes event discovery, reviews, and recurring engagement.",
     techStackDesc: "To create our project, we utilized Visual Studio Code and GitHub. The website and its webpages were coded using HTML, CSS, and JavaScript. All resources are uploaded to our shared GitHub repository.",
-    demoLink: "https://orotko-1103.github.io/In-The-Mix/",
+    demoLink: "https://protko-1103.github.io/In-The-Mix/",
     problem: {
       title: "There is a decline of social connection and finding a 'third space.'",
       description: "A third place is essential for community, connection and belonging. Provide an easier and more convenient way for users to find local events and attractions, along with making social connections. We want locals to share an experience and opportunities with other locals, artists, and small businesses. Keep people in the know with events that we know they will cherish."
